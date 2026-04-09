@@ -1,13 +1,13 @@
 # SJDF-CLI
 A simple, human-readable alternative to JSON. Convert between SJDF and JSON, validate structure, format files, and improve readability. Built for developers who want less noise, fewer errors, and cleaner data workflows.
 
-⚡ SJDF — Simple Just Data Format
+## SJDF — Simple Just Data Format
 
-«JSON is for machines. SJDF is for humans.»
+### JSON is for machines. SJDF is for humans.
 
 ---
 
-😩 The Problem
+### 😩 The Problem
 
 If you've ever stared at JSON like this:
 
@@ -29,7 +29,7 @@ You know the pain:
 
 ---
 
-✨ The Solution: SJDF
+### ✨ The Solution: SJDF
 
 ```sjdf
 user:
@@ -63,31 +63,39 @@ sjdf parse data.sjdf --pretty
 
 ---
 
-Convert JSON → SJDF
+### Convert JSON → SJDF
 
+```sjdf
 sjdf stringify data.json
+```
 
 ---
 
-Validate
+### Validate
 
+```sjdf
 sjdf validate data.sjdf
+```
 
 ---
 
-Format
+### Format
 
+```sjdf
 sjdf format messy.sjdf
+```
 
 ---
 
-Watch Mode (🔥 dev favorite)
+### Watch Mode (🔥 dev favorite)
 
+```sjdf
 sjdf parse data.sjdf --watch
+```
 
 ---
 
-🧠 Why Developers Love SJDF
+**Why Developers Love SJDF**
 
 - Reads like YAML (without YAML madness)
 - Simpler than JSON
@@ -96,7 +104,7 @@ sjdf parse data.sjdf --watch
 
 ---
 
-🧩 Real Use Cases
+**Real Use Cases**
 
 - Config files
 - AI prompt templates
@@ -106,31 +114,30 @@ sjdf parse data.sjdf --watch
 
 ---
 
-⚠️ Philosophy
+**Philosophy**
 
 SJDF is not trying to replace JSON.
 
 It exists because:
 
-«Humans deserve a format they don’t hate.»
+**Humans deserve a format they don’t hate.**
 
 ---
 
-🛣 Roadmap
+### Roadmap
 
-- [ ] Comments support
 - [ ] Schema validation
 - [ ] VSCode extension
 - [ ] Web converter tool
 
 ---
 
-🤝 Contributing
+### Contributing
 
 PRs welcome. Keep it simple. No overengineering.
 
 ---
 
-⭐ If This Helped You
+### If This Helped You
 
 Star the repo. It helps more than you think.
