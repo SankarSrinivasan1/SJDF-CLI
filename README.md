@@ -132,12 +132,6 @@ It exists because:
 
 ---
 
-### Contributing
-
-PRs welcome. Keep it simple. No overengineering.
-
----
-
 ### If This Helped You
 
 Star the repo. It helps more than you think.
