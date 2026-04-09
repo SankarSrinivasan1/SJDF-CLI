@@ -1,0 +1,20 @@
+name: sjdf-cli
+version: 1.0.0
+description: Simple Just Data Format CLI
+
+bin:
+  sjdf: ./bin/sjdf.js
+
+type: commonjs
+
+scripts:
+  start: node bin/sjdf.js
+  test: node bin/sjdf.js parse test/sample.sjdf --pretty
+
+keywords:
+  - sjdf
+  - json-alternative
+  - cli
+
+author: Sankar Srinivasan
+license: Apache 2.0
