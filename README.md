@@ -77,6 +77,18 @@ sjdf stringify data.json
 sjdf validate data.sjdf
 ```
 
+Output:
+
+```bash
+✔ Valid SJDF
+```
+
+Or:
+
+```bash
+Error: Invalid indentation at line 4
+```
+
 ---
 
 ### Format
