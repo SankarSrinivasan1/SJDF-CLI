@@ -1,3 +1,6 @@
+// Core Engine — Parser (SJDF → JS)
+// This is the heart. Keep it predictable.
+
 function parseSJDF(input) {
   const lines = input.split("\n");
 
