@@ -1,3 +1,4 @@
+// Validator (Fail Fast, Clear Errors)
 // Don’t overcomplicate — we reuse parsing logic
 // but enforce stricter checks.
 
