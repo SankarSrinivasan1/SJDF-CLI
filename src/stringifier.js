@@ -1,3 +1,10 @@
+// Key idea:
+// Recursively walk object
+// Use indentation (2 spaces)
+// Handle arrays in 2 formats:
+// Inline → [a, b]
+// Block → - item
+
 function stringifySJDF(obj, indent = 0) {
   const spaces = " ".repeat(indent);
   let output = "";
