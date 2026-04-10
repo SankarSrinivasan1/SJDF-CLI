@@ -27,3 +27,20 @@ We split responsibilities cleanly:
 - Fail fast on invalid structure
 - Output clean, deterministic SJDF
 
+## Error Handling Strategy
+
+Handled at 3 levels:
+
+1. CLI Level
+Missing file
+Invalid command
+
+2. Parser Level
+Invalid indentation
+Missing key
+Malformed arrays
+
+3. Runtime Safety
+Wrapped in try/catch
+Clear error messages with line numbers
+---
