@@ -1,3 +1,6 @@
+// Formatter (Auto-clean messy SJDF)
+// Strategy: Parse → Normalize → Re-stringify
+
 const { parseSJDF } = require("./parser");
 const { stringifySJDF } = require("./stringifier");
 
