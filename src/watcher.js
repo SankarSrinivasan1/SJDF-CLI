@@ -1,3 +1,6 @@
+// Watch Mode (Dev Experience Boost)
+// Zero dependency. Just Node.
+
 const fs = require("fs");
 
 function watchFile(file, callback) {
