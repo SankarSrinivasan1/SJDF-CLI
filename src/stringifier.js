@@ -1,3 +1,4 @@
+// Stringifier (JS → SJDF)
 // Key idea:
 // Recursively walk object
 // Use indentation (2 spaces)
