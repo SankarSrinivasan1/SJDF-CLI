@@ -104,7 +104,10 @@ sjdf format messy.sjdf
 ```sjdf
 sjdf parse data.sjdf --watch
 ```
-
+or
+```bash
+sjdf parse data.sjdf --pretty --watch
+```
 ---
 
 **Why Developers Love SJDF**
