@@ -1,3 +1,6 @@
+// Don’t overcomplicate — we reuse parsing logic
+// but enforce stricter checks.
+
 function validateSJDF(input) {
   const lines = input.split("\n");
   const indentStack = [-1];
